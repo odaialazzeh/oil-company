@@ -24,7 +24,7 @@ function App() {
     });
   }, []);
 
-  useDocTitle("MLD | Molad e Konsult - Bespoke Web and Mobile Applications");
+  useDocTitle("OliveOile-Palestine");
 
   return (
     <>

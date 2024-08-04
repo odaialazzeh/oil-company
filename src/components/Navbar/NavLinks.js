@@ -28,7 +28,11 @@ const NavLinks = ({ onClick }) => {
 
   return (
     <>
-      <nav className={i18n.language === "ar" ? "arabic-font" : "english-font"}>
+      <nav
+        className={`flex flex-col space-y-6 ${
+          i18n.language === "ar" ? "arabic-font" : "english-font"
+        }`}
+      >
         <HashLink
           className="px-4 font-extrabold text-green-900 hover:text-green-700"
           smooth
@@ -61,12 +65,18 @@ const NavLinks = ({ onClick }) => {
           {t("contact")}
         </HashLink>
         {i18n.language !== "en" && (
-          <button onClick={() => handleLanguageChange("en")} className="english-font text-green-900 text-lg font-bold">
+          <button
+            onClick={() => handleLanguageChange("en")}
+            className="english-font text-green-900 text-lg font-bold"
+          >
             {t("english")}
           </button>
         )}
         {i18n.language !== "ar" && (
-          <button onClick={() => handleLanguageChange("ar")} className="arabic-font text-green-900 text-xl font-bold">
+          <button
+            onClick={() => handleLanguageChange("ar")}
+            className="arabic-font text-green-900 text-xl font-bold"
+          >
             {t("arabic")}
           </button>
         )}

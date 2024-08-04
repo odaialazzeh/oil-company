@@ -69,7 +69,7 @@ const Footer = () => {
               <div className="text-sm text-green-900 font-semibold py-1">
                 Copyright &copy; {new Date().getFullYear()}
                 {"  "}
-                <HashLink to="#" className=" hover:text-green-700">
+                <HashLink to="https://odaialazzeh.onrender.com/" className=" hover:text-green-700">
                   Odai Alazzeh
                 </HashLink>
                 . All rights reserved.
