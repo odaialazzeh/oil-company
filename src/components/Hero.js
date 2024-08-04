@@ -26,11 +26,7 @@ const Hero = () => {
                 i18n.language === "ar" ? "arabic-font" : "english-font"
               }
             >
-              <div
-                className="lg:w-1/2 flex flex-col justify-center"
-                data-aos="zoom-in"
-                data-aos-delay="200"
-              >
+              <div className=" flex flex-col justify-center mt-9">
                 <h1 className="mb-5 md:text-5xl text-3xl font-bold text-green-800">
                   {t("welcome")}
                 </h1>

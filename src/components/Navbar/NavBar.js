@@ -6,7 +6,6 @@ import { useTranslation } from "react-i18next";
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [top, setTop] = useState(true);
-
   const { t, i18n } = useTranslation();
 
   const handleClick = () => {
