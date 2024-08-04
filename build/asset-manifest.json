@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.90970d70.css",
+    "main.js": "/static/js/main.57622d14.js",
+    "static/media/olive-background.png": "/static/media/olive-background.4b28775115ce5a538c2e.png",
+    "static/media/oil-0.25.jpeg": "/static/media/oil-0.25.245907ca0d588c5c7167.jpeg",
+    "static/media/footer.svg": "/static/media/footer.849858b814a9a338cd66.svg",
+    "static/media/olive-img.svg": "/static/media/olive-img.59be099524c10ac2c713bd7e461aabda.svg",
+    "static/media/shekel-currency.svg": "/static/media/shekel-currency.90e12b5a208ac95508fbd5d5eecc0483.svg",
+    "index.html": "/index.html",
+    "static/media/hero-bg.svg": "/static/media/hero-bg.2237f2b6be81c21a80a6.svg",
+    "main.90970d70.css.map": "/static/css/main.90970d70.css.map",
+    "main.57622d14.js.map": "/static/js/main.57622d14.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90970d70.css",
+    "static/js/main.57622d14.js"
+  ]
+}
